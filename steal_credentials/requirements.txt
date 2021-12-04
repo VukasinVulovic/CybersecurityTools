@@ -1,0 +1,4 @@
+crypto==1.4.1
+pycryptodomex==3.10.1
+pypiwin32==223
+pywin32==301
