@@ -1,0 +1,6 @@
+{
+    "server_adress": "serverconnection.mywire.org",
+    "temp_folder": "./static/temp",
+    "access_ip": "*",
+    "port": 80
+}

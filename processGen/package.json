@@ -1,0 +1,27 @@
+{
+  "name": "processGen",
+  "version": "1.0.0",
+  "description": "microsoft process gen",
+  "main": "index.js",
+  "icon": "./icon.ico",
+  "author": "Test",
+  "license": "ISC",
+  "builder": {
+    "icon": "./icon.ico"
+  },
+  "electronWebpack": {
+    "staticSourceDirectory": "./static"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "i": "^0.3.6",
+    "npm": "^6.14.8",
+    "os": "^0.1.1",
+    "request": "^2.88.2",
+    "ws": "^7.3.1",
+    "zip-folder": "^1.0.0"
+  }
+}
