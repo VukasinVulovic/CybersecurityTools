@@ -1,0 +1,22 @@
+{
+  "name": "discord_handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "bin": "main.js",
+  "scripts": {
+    "test": "node .",
+    "build": "pkg . -t node10-win-ia32 -r \"index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "productName": "discord_handler"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "puppeteer-core": "^7.0.1",
+    "request": "^2.88.2"
+  }
+}
