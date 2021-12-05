@@ -1,0 +1,267 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.cmd-link {
+    text-align: right;
+    display: block;
+    font-size: 12pt;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.home-link {
+    text-decoration: none;
+}
+
+.navigator-bar {
+    border: solid 1px rgb(223, 223, 223);
+    left: 0;
+    top: 0;
+    padding: 0;
+    width: 250px;
+    height: calc(100% - 2px);
+    display: block;
+    position: absolute;
+}
+
+.navigator-item {
+    color: rgb(24, 24, 24);
+    display: block;
+    font-size: 12pt;
+    font-weight: bolder;
+    padding-top: 22pt;
+    padding-left: 12pt;
+}
+
+.icon {
+    color: rgb(24, 24, 24);
+    font-weight: bolder;
+    font-size: 24pt;
+    padding-right: 10pt;
+    padding-left: 1pt;
+    vertical-align: middle;
+}
+
+.top-bar {
+    position: absolute;
+    border: solid 1px rgb(223, 223, 223);
+    left: 251px;
+    top: 0;
+    height: 50px;
+    width: calc(100% - 253px);
+}
+
+.search-bar {
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+    border: none;
+    outline: none;
+    display: block;
+    border-radius: 5px;
+    margin-top: 8pt;
+    width: 60%;
+    font-size: 14pt;
+}
+
+.higlight-item {
+    background-color: rgba(235, 235, 235, 0.397);
+    box-shadow: rgb(192, 192, 192) 0.2px 0.1px 10px;
+}
+
+::placeholder {
+    color: rgb(161, 161, 161);
+    font-weight: lighter;
+} 
+
+.wrapper {
+    padding-left: 115px;
+    margin: auto;
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.loading {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.folder {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 25pt;
+}
+
+.folder-image {
+    width: 200px;
+    height: 200px;
+}
+
+.folder-name {
+    font-size: 14pt;
+    display: block;
+    margin-top: -14pt;
+    text-align: center;
+}
+
+.folder-href {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+.file {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 25pt;
+}
+
+.file-image {
+    width: 200px;
+    height: 200px;
+}
+
+.file-name {
+    font-size: 14pt;
+    display: block;
+    margin-top: -14pt;
+    text-align: center;
+}
+
+.select-menu {
+    list-style: none;
+    position: absolute;
+    border: 1px solid rgb(236, 236, 236);
+    box-shadow: rgb(221, 221, 221) 1px 2px 2px;
+    width: 140px;
+    height: 40px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.select-menu-option:hover {
+    font-size: 14pt;
+}
+
+.select-menu-option {
+    font-size: 12pt;
+    padding-left: 20px;
+    margin-top: 8px;
+    display: inline-block;
+    color: rgb(39, 38, 38);
+    z-index: 1;
+}
+
+.enter_name {
+    outline: none;
+    border: solid 1px rgb(177, 177, 177);
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 10px;
+    width: 195px;
+    text-align: center;
+}
+
+.enter_name::selection, .enter_name::-moz-selection {
+    background: #358afa;
+    color: rgb(255, 255, 255);
+}
+
+.storage-used {
+    text-align: right;
+    display: block;
+    color: rgba(119, 119, 119, 0.52);
+    padding-bottom: 4pt;
+    margin-right: 30px;
+}
+
+.storage-bar {
+    width: calc(100% - 50px);
+    height: 20px;
+    display: flex;
+    padding: 0;
+    margin: auto;
+    background-color: rgb(70, 70, 70);
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.storage-apps {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(228, 50, 84);
+}
+
+.storage-photos {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(228, 192, 8);
+}
+
+.storage-media {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(173, 79, 215);
+}
+
+.storage-text {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(40, 187, 80);
+}
+
+.storage-other {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(124, 123, 128);
+}
+
+.storage-free-space {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(214, 214, 214);
+}
+
+.storage-label {
+    padding-left: 2em;
+}
+
+.storage-label-icon {
+    font-size: 6pt;
+    padding-bottom: 0.5pt;
+    vertical-align: middle;
+}
+
+.storage-free {
+    text-align: right;
+    display: block;
+    color: rgba(119, 119, 119, 0.52);
+    margin-right: 50px;
+}
