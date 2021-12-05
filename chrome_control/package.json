@@ -1,0 +1,21 @@
+{
+  "name": "webinject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "node .",
+    "build": "pkg . -t node10-win-ia32 -r \"chrome_handler\\**\\*\" -r \"main.js\" --icon icon.ico"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "productName": "webinject"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "node-windows": "^1.0.0-beta.5"
+  }
+}
