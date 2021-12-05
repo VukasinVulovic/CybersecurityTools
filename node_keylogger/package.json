@@ -1,0 +1,28 @@
+{
+  "name": "user_input_handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "iohook": {
+    "targets": [
+      "node-83"
+    ],
+    "platforms": [
+      "win32"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  },
+  "dependencies": {
+    "iohook": "^0.6.6"
+  }
+}
