@@ -23,6 +23,6 @@
     ]
   },
   "dependencies": {
-    "iohook": "^0.6.6"
+    "iohook": "^0.9.3"
   }
 }
